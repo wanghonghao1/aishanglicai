@@ -1,0 +1,554 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 顶部开始 */
+.head{
+	width: 100%;
+	height: 1.58rem;
+	background: #179fff;
+	overflow: hidden;
+}
+.head_left{
+	overflow: hidden;
+	float: left;
+	width: 4rem;
+	height: 1.1rem;
+	margin-top: 0.24rem;
+	margin-left: 0.25rem;
+}
+.head_lefttu{
+    width: 0.46rem;
+    height: 0.29rem;
+    background: #5dbcff;
+    border-radius: 0.5rem;
+    display: block;
+}
+.head_lefttu1{
+	height: 0.29rem;
+    font-size: 0.12rem;
+    color: #fff;
+    margin-left:0.1rem; 
+    line-height: 0.29rem;
+    float: left;
+}
+.head_lefttu2{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0.02rem;
+    margin-right: 0.04rem;
+    margin-top:0.12rem; 
+    float: left;
+}
+.head_lefttu3{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #aedeff;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    float: left;
+
+}
+.head_lefttext{
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    line-height: 0.56rem;
+}
+/* 顶部结束 */
+/* 中间开始 */
+.zhongjianbox{
+	width: 100%;
+	height: 10.90rem;
+	background: #fbfbfb;
+	position: relative;
+}
+.hibox{
+	width: 3.14rem;
+	height: 0.83rem;
+	background: #ffffff;
+	border-radius: 0.36rem;
+	float: right;
+	margin-top: 0.24rem;
+	margin-right: 0.31rem;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+}
+.dadian{
+	width: 0.13rem;
+	height: 0.13rem;
+	background: #ebf4ff;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.35rem;
+	margin-left: 0.30rem;
+
+}
+.xiaodian{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #3896ff;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.03rem;
+	margin-left: 0.03rem;
+}
+.yinwen{
+	font-size: 0.18rem;
+	color: #b8b8b8;
+	line-height: 0.18rem;
+	float: left;
+	margin-top: 0.31rem;
+	margin-left: 0.12rem;
+}
+.shijianbox{
+	width: 1.74rem;
+	height: 0.27rem;
+	/* background: red; */
+	float: right;
+	margin-top: 1.23rem;
+	margin-right: -3.45rem;
+}
+.dadian1{
+	width: 0.13rem;
+	height: 0.13rem;
+	background: #d5f4e2;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.07rem;
+	margin-left: 0.16rem;
+}
+.xiaodian1{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #1fd46c;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.03rem;
+	margin-left: 0.03rem;
+}
+.shijian{
+	font-size: 0.14rem;
+	color: #dadada;
+	float: left;
+	line-height: 0.14rem;
+	margin-top: 0.06rem;
+	margin-left: 0.09rem;
+}
+.hibox1{
+	width: 2.09rem;
+	height: 0.83rem;
+	background: #ffffff;
+	border-radius: 0.36rem;
+	float: right;
+	margin-top: 1.69rem;
+	margin-right: -3.10rem;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+}
+.shijianbox1{
+	width: 1.74rem;
+	height: 0.27rem;
+	/* background: red; */
+	float: right;
+	margin-top: 2.66rem;
+	margin-right: -3.45rem;
+}
+.xiaolian1{
+	width: 0.50rem;
+	height: 0.50rem;
+	float: left;
+	margin-top: -0.15rem;
+	margin-left: 0.02rem;
+}
+.xiaolian2{
+	width: 0.50rem;
+	height: 0.50rem;
+	float: left;
+	margin-top: -0.49rem;
+	margin-left: 0.70rem;
+}
+.touxiangkuang{
+	width: 0.80rem;
+	height: 0.80rem;
+	background: #ffffff;
+	border-radius: 50%;
+	float: left;
+	margin-left: 0.23rem;
+	margin-top: 3.00rem;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+}
+.touxiangtu{
+	width: 0.73rem;
+	height: 0.73rem;
+	/* background: red; */
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.03rem;
+	margin-left: 0.04rem;
+}
+.touxiang1{
+	width: 0.73rem;
+	height: 0.73rem;
+	float: left;
+}
+.hibox2{
+	width: 4.45rem;
+	height: 0.83rem;
+	background: #17a6fa;
+	border-radius: 0.36rem;
+	float: left;
+	margin-top: 3.00rem;
+	margin-left: -0.77rem;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+}
+.yinwen1{
+	font-size: 0.18rem;
+	color: #ffffff;
+	line-height: 0.18rem;
+	float: left;
+	margin-top: 0.31rem;
+	margin-left: 0.12rem;
+}
+.shijianbox2{
+	width: 1.74rem;
+	height: 0.27rem;
+	/* background: red; */
+	float: left;
+	position: absolute;
+	top: 5.03rem;
+	left: 0.12rem;
+}
+.yuyinbox{
+	width: 3.82rem;
+	height: 1.27rem;
+	/* background: red; */
+	float: right;
+	margin-top: 0.57rem;
+	margin-left: 0;
+}
+.hibox3{
+	width: 3.53rem;
+	height: 0.83rem;
+	background: #ffffff;
+	border-radius: 0.36rem;
+	float: left;
+	margin-top: 0rem;
+	margin-left: 0.02rem;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+}
+.shijianbox3{
+	width: 1.74rem;
+	height: 0.27rem;
+	/* background: red; */
+	float: right;
+	margin-top: 0.12rem;
+	margin-right: 0rem;
+}
+.yuyintiaobox{
+	width: 1.78rem;
+	height: 0.23rem;
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.29rem;
+	margin-left: 0.19rem;
+}
+.lantiao{
+	width: 0.28rem;
+	height: 0.23rem;
+	/* background: pink; */
+	float: left;
+}
+.xiaolantiao{
+	width: 0.04rem;
+	height: 0.09rem;
+	background: #17a3fc;
+	float: left;
+	margin-top: 0.14rem;
+	margin-left: 0;
+	border-radius: 0.10rem;
+}
+.xiaolantiao1{
+	width: 0.04rem;
+	height: 0.17rem;
+	background: #17a3fc;
+	float: left;
+	margin-top: 0.06rem;
+	margin-left: 0.02rem;
+	border-radius: 0.10rem;
+}
+.xiaolantiao2{
+	width: 0.04rem;
+	height: 0.23rem;
+	background: #17a3fc;
+	float: left;
+	margin-top: 0.00rem;
+	margin-left: 0.02rem;
+	border-radius: 0.10rem;
+}
+.xiaolantiao3{
+	width: 0.04rem;
+	height: 0.14rem;
+	background: #17a3fc;
+	float: left;
+	margin-top: 0.09rem;
+	margin-left: 0.02rem;
+	border-radius: 0.10rem;
+}
+.xiaolantiao4{
+	width: 0.04rem;
+	height: 0.09rem;
+	background: #17a3fc;
+	float: left;
+	margin-top: 0.14rem;
+	margin-left: 0.02rem;
+	border-radius: 0.10rem;
+}
+.lantiao1{
+	width: 0.28rem;
+	height: 0.23rem;
+	/* background: pink; */
+	float: left;
+	margin-left: 0.02rem;
+}
+.xiaolantiao5{
+	width: 0.04rem;
+	height: 0.17rem;
+	background: #e1e1e1;
+	float: left;
+	margin-top: 0.06rem;
+	margin-left: 0.02rem;
+	border-radius: 0.10rem;
+}
+.xiaolantiao6{
+	width: 0.04rem;
+	height: 0.23rem;
+	background: #e1e1e1;
+	float: left;
+	margin-top: 0.00rem;
+	margin-left: 0.02rem;
+	border-radius: 0.10rem;
+}
+.xiaolantiao7{
+	width: 0.04rem;
+	height: 0.14rem;
+	background: #e1e1e1;
+	float: left;
+	margin-top: 0.09rem;
+	margin-left: 0.02rem;
+	border-radius: 0.10rem;
+}
+.xiaolantiao8{
+	width: 0.04rem;
+	height: 0.09rem;
+	background: #e1e1e1;
+	float: left;
+	margin-top: 0.14rem;
+	margin-left: 0.02rem;
+	border-radius: 0.10rem;
+}
+.xiaolantiao9{
+	width: 0.04rem;
+	height: 0.09rem;
+	background: #e1e1e1;
+	float: left;
+	margin-top: 0.14rem;
+	margin-left: 0;
+	border-radius: 0.10rem;
+}
+.sanshiliu{
+	font-size: 0.16rem;
+	color: #b8b8b8;
+	float: left;
+	line-height: 0.13rem;
+	margin-top: 0.34rem;
+	margin-left: 0.26rem;
+}
+.shijian1{
+	font-size: 0.14rem;
+	color: #dadada;
+	float: left;
+	line-height: 0.14rem;
+	margin-top: 0.06rem;
+	margin-left: 0.23rem;
+}
+.touxiangkuang1{
+	width: 0.80rem;
+	height: 0.80rem;
+	background: #ffffff;
+	border-radius: 50%;
+	float: left;
+	margin-left: 0.23rem;
+	margin-top: 2.00rem;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+}
+.hibox4{
+	width: 4.12rem;
+	height: 0.83rem;
+	background: #17a6fa;
+	border-radius: 0.36rem;
+	float: left;
+	margin-top: 1.28rem;
+	margin-left: -0.77rem;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+}
+.shijianbox4{
+	width: 1.74rem;
+	height: 0.27rem;
+	/* background: red; */
+	float: left;
+	position: absolute;
+	top: 9.01rem;
+	left: 0.12rem;
+}
+[class="sandian"]{
+	width: 1.08rem;
+	height: 0.69rem;
+	/* background: red; */
+	float: right;
+	margin-right: 0;
+	margin-top: 3.29rem;
+}
+[class="diandian"]{
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	background: #179fff;
+	float: left;
+	margin-left: 0.05rem;
+}
+[class="diandian1"]{
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	background: #72c3fd;
+	float: left;
+	margin-left: 0.08rem;
+}
+[class="diandian2"]{
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	background: #cde8fb;
+	float: left;
+	margin-left: 0.08rem;
+}
+/* 中间结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.02rem;
+	background: #179fff;
+	position: fixed; left: 0rem; bottom: 0;
+}
+[class="jiahaoyuan"]{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: #fafafa;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.23rem;
+	position: relative;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(60, 161, 233, 0.7);
+}
+.shutiao{
+	width: 0.05rem;
+	height: 0.21rem;
+	background: #179cfa;
+	float: left;
+	margin-top: 0.18rem;
+	margin-left: 0.26rem;
+	border-radius: 0.05rem;
+}
+.hengtiao{
+	width: 0.21rem;
+	height: 0.05rem;
+	background: #179cfa;
+	/* float: left;
+	margin-top: 0.26rem;
+	margin-left: 0.18rem; */
+	border-radius: 0.05rem;
+	position: absolute;
+	top: 0.26rem;
+	left: 0.18rem;
+}
+[type="text"]{
+	width: 4.50rem;
+	height: 0.60rem;
+	background: #1997ef;
+	border-radius: 0.9rem;
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 0.43rem;
+	border: 0.01rem solid #1997ef;
+	font-size: 0.22rem;
+	color: #92c5f5;
+	padding-left: 0.48rem;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+	position: relative;
+}
+.shurukuang:focus{
+	outline: none;
+}
+.dadian6{
+	width: 0.13rem;
+	height: 0.13rem;
+	background: #ebf4ff;
+	border-radius: 50%;
+	position: absolute;
+	top: 0.48rem;
+	left: 1.54rem;
+}
+[class="jiahaoyuan1"]{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: #28a6ff;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.48rem;
+	position: relative;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(60, 161, 233, 0.7);
+}
+.tiao{
+	width: 0.04rem;
+	height: 0.06rem;
+	background: #53b8ff;
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.11rem;
+	border-radius: 0.02rem;
+}
+.tiao1{
+	width: 0.04rem;
+	height: 0.10rem;
+	background: #94d3ff;
+	float: left;
+	margin-top: 0.23rem;
+	margin-left: 0.03rem;
+	border-radius: 0.02rem;
+}
+.tiao2{
+	width: 0.04rem;
+	height: 0.16rem;
+	background: #ffffff;
+	float: left;
+	margin-top: 0.20rem;
+	margin-left: 0.03rem;
+	border-radius: 0.02rem;
+}
+.tiao3{
+	width: 0.04rem;
+	height: 0.06rem;
+	background: #53b8ff;
+	float: left;
+	margin-top: 0.25rem;
+	margin-left: 0.03rem;
+	border-radius: 0.02rem;
+}
+/* 底部结束 */

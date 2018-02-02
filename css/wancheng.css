@@ -1,0 +1,163 @@
+/*
+* @Author: 王旭峰
+* @Date:   2018-01-30 11:24:41
+* @Last Modified by:   王旭峰
+* @Last Modified time: 2018-02-01 15:00:17
+*/
+*{
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部 */
+.head{
+	width: 100%;
+	height: 1.58rem;
+	background: #179fff;
+	overflow: hidden;
+}
+.head_left{
+	overflow: hidden;
+	float: left;
+	width: 2.6rem;
+	height: 1.1rem;
+	margin-top: 0.24rem;
+	margin-left: 0.25rem;
+}
+.head_lefttu{
+    width: 0.46rem;
+    height: 0.29rem;
+    background: #5dbcff;
+    border-radius: 0.5rem;
+    display: block;
+    float: left;
+}
+.head_lefttu1{
+	height: 0.29rem;
+    font-size: 0.12rem;
+    color: #fff;
+    margin-left:0.1rem; 
+    line-height: 0.29rem;
+    float: left;
+}
+.head_lefttu2{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0.02rem;
+    margin-right: 0.04rem;
+    margin-top:0.12rem; 
+    float: left;
+}
+.head_lefttu3{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #aedeff;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    float: left;
+}
+.head_lefttext{
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    line-height: 0.56rem;
+    float: left;
+}
+.tu{
+	float: left;
+	width:7.5rem; 
+	height: 11.75rem;
+	background: url('../img/gao/7.png')no-repeat;
+	background-size: 7.5rem 12.35rem;
+	overflow: hidden;
+}
+.tu h1{
+	font-size: 0.32rem; 
+	color: #2b8aff;
+	margin-top: 0.49rem;
+	text-align: center; 
+}
+.tu h2{
+	font-size: 0.22rem; 
+	color: #2b8aff;
+	margin-top: 0.16rem;
+	text-align: center;
+}
+.tu h3{
+	font-size: 0.4rem; 
+	color: #cbdcfc;
+	margin-top: 0.22rem;
+	text-align: center;
+}
+.tu h4{
+	font-size: 0.4rem; 
+	color: #cbdcfc;
+	margin-top: 0.06rem;
+	text-align: center;
+}
+.xia{
+	width: 4rem;
+	height: 0.8rem;
+	background-image: -webkit-linear-gradient(left,#28d468,#2fdd35);
+	border-radius: 0.38rem;
+	box-shadow: 0rem 0rem 0.05rem 0.02rem rgba(186, 225, 252, 0.4);
+	margin: 0 auto;
+	margin-top: 6.2rem;
+	position: relative;
+	display: block;
+}
+.xia h2{
+	width: 4rem;
+	height: 0.8rem;
+	font-size: 0.26rem;
+	color: #ffffff;
+	position: absolute;
+	text-align: center;
+	line-height: 0.8rem;
+	top: -0.15rem;
+	left: 0;
+	float: left;
+}
+.xia h1{
+	width: 4rem;
+	height: 0.8rem;
+	font-size: 0.14rem;
+	color: #69e07c;
+	position: absolute;
+	top: -0.25rem;
+	left: -0.03rem;
+	float: left;
+}
+.xia1{
+	width: 4rem;
+	height: 0.8rem;
+	background-image: -webkit-linear-gradient(left,#28d468,#2fdd35);
+	border-radius: 0.38rem;
+	box-shadow: 0rem 0rem 0.05rem 0.02rem rgba(186, 225, 252, 0.4);
+	margin: 0 auto;
+	margin-top: 0.34rem;
+	position: relative;
+	display: block;
+}
+.xia1 h2{
+	font-size: 0.26rem;
+	color: #ffffff;
+	position: absolute;
+	top:0.08rem;
+	left: 1.72rem;
+	float: left;
+	z-index: 20;
+}
+.xia1 h1{
+	font-size: 0.14rem;
+	color: #69e07c;
+	position: absolute;
+	top:-0.25rem;
+	left: 1.2rem;
+	float: left;
+}

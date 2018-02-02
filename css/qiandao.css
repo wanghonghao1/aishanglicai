@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 顶部开始 */
+.head{
+	width: 100%;
+	height: 1.58rem;
+	background: #179fff;
+	overflow: hidden;
+}
+.head_left{
+	overflow: hidden;
+	float: left;
+	width: 2.6rem;
+	height: 1.1rem;
+	margin-top: 0.24rem;
+	margin-left: 0.25rem;
+}
+.head_lefttu{
+    width: 0.46rem;
+    height: 0.29rem;
+    background: #5dbcff;
+    border-radius: 0.5rem;
+    display: block;
+}
+.head_lefttu1{
+	height: 0.29rem;
+    font-size: 0.12rem;
+    color: #fff;
+    margin-left:0.1rem; 
+    line-height: 0.29rem;
+    float: left;
+}
+.head_lefttu2{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0.02rem;
+    margin-right: 0.04rem;
+    margin-top:0.12rem; 
+    float: left;
+}
+.head_lefttu3{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #aedeff;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    float: left;
+
+}
+.head_lefttext{
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    line-height: 0.56rem;
+}
+/* 顶部结束 */
+/* 本月累计签到数开始 */
+.leijiqiandao{
+	height: 0.73rem;
+	background: #fbfbfb;
+}
+.list1_left2{
+	float: left;
+	width: 0.06rem;
+	height: 0.49rem;
+	background: #179fff;
+	border-radius: 0.5rem;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+	display: inline-block;
+}
+.list1_zhong{
+	float: left;
+	height: 0.49rem;
+	margin-left: 0.1rem;
+	margin-top: 0.24rem;
+
+}
+h2{
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #646464;
+	line-height: 0.28rem;
+	float: left;
+}
+h3{
+	height: 0.14rem;
+	font-size: 0.14rem;
+	color: #e1e1e1;
+	line-height: 0.14rem;
+	margin-top: 0.3rem;
+}
+.shijian{
+	width: 100%;
+	height: 1.88rem;
+}
+.shijian1{
+	width: 100%;
+	height: 1.88rem; 
+}
+.leijiqiandao1{
+	width: 100%;
+	height: 0.73rem;
+	background: #fbfbfb;
+}
+footer{
+	width: 100%;
+	height: 8.27rem;
+	background: url('../img/youhuijuan.png')no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+footer .box{
+	width: 7.02rem;
+	height: 1.28rem;
+	/* background: red; */
+	margin-top: 0.54rem;
+	margin-left: 0.24rem;
+}
+.jiaxijuan{
+	font-size: 0.27rem;
+	color: #179fff;
+	float: left;
+	margin-top: 0.04rem;
+	margin-left: 0.53rem;
+	font-weight: bold;
+}
+.baifenbi{
+	font-size: 0.43rem;
+	color: #2b8aff;
+	float: left;
+	margin-top: 0.13rem;
+	margin-left: 0.93rem;
+	font-weight: bold;
+}
+.baifenhao{
+	font-size: 0.15rem;
+	color: #96bbde;
+	float: left;
+	margin-top: 0.30rem;
+	margin-left: 0.14rem;
+}
+.leijijiaxi{
+	font-size: 0.28rem;
+	color: #a1a1a1;
+	float: left;
+	margin-left: -1.32rem;
+	margin-top: 0.72rem;
+	display: inline-block;
+}
+.sitianbox{
+	width: 1.54rem;
+	height: 0.49rem;
+	background:  #179fff;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+	float: left;
+	margin-top: 0.61rem;
+	margin-left: 1.12rem;
+	border-radius: 0.19rem;
+}
+.sitianzt{
+	font-size: 0.19rem;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.49rem;
+}
+footer .box1{
+	width: 7.02rem;
+	height: 1.28rem;
+	/* background: red; */
+	margin-top: 0.77rem;
+	margin-left: 0.24rem;
+}
+.baifenbi1{
+	font-size: 0.34rem;
+	color: #2b8aff;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.93rem;
+	font-weight: bold;
+}
+.leijijiaxi1{
+	font-size: 0.28rem;
+	color: #a1a1a1;
+	float: left;
+	margin-left: -1.11rem;
+	margin-top: 0.72rem;
+	display: inline-block;
+}
+.sitianbox1{
+	width: 1.54rem;
+	height: 0.49rem;
+	background:  #31d665;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+	float: left;
+	margin-top: 0.61rem;
+	margin-left: 1.12rem;
+	border-radius: 0.19rem;
+}
+.jinfen{
+	font-size: 0.28rem;
+	color: #8d8d8d;
+	float: left;
+	margin-top: -1.23rem;
+	margin-left: 3.89rem;
+}
+.zimu{
+	font-size: 0.16rem;
+	color: #cacaca;
+	float: left;
+	margin-top: -0.89rem;
+	margin-left: 4.58rem;
+}
+.sitianbox2{
+	width: 1.54rem;
+	height: 0.49rem;
+	background:  #ffb934;
+	box-shadow: 0 0 0.2rem 0.03rem rgba(221, 221, 221, 0.7);
+	float: left;
+	margin-top: 0.61rem;
+	margin-left: 1.12rem;
+	border-radius: 0.19rem;
+}
+/* 本月累计签到数结束 */

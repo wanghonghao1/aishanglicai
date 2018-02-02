@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 顶部开始 */
+.head{
+	width: 100%;
+	height: 1.58rem;
+	background: #179fff;
+	overflow: hidden;
+}
+.head_left{
+	overflow: hidden;
+	float: left;
+	width: 2.6rem;
+	height: 1.1rem;
+	margin-top: 0.24rem;
+	margin-left: 0.25rem;
+}
+.head_lefttu{
+    width: 0.46rem;
+    height: 0.29rem;
+    background: #5dbcff;
+    border-radius: 0.5rem;
+    display: block;
+}
+.head_lefttu1{
+	height: 0.29rem;
+    font-size: 0.12rem;
+    color: #fff;
+    margin-left:0.1rem; 
+    line-height: 0.29rem;
+    float: left;
+}
+.head_lefttu2{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0.02rem;
+    margin-right: 0.04rem;
+    margin-top:0.12rem; 
+    float: left;
+}
+.head_lefttu3{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #aedeff;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    float: left;
+
+}
+.head_lefttext{
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    line-height: 0.56rem;
+}
+/* 顶部结束 */
+.list1_left2{
+	float: left;
+	width: 0.06rem;
+	height: 0.49rem;
+	background: #179fff;
+	border-radius: 0.5rem;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list1_zhong{
+	float: left;
+	height: 0.49rem;
+	margin-left: 0.1rem;
+	margin-top: 0.24rem;
+
+}
+h2{
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #646464;
+	line-height: 0.28rem;
+}
+h3{
+	height: 0.14rem;
+	font-size: 0.14rem;
+	color: #e1e1e1;
+	line-height: 0.14rem;
+	margin-top: 0.07rem;
+}
+.list1_right{
+	float: right;
+	width: 0.9rem;
+	height: 0.37rem;
+	background: #cde9fc;
+	border-radius: 0.5rem;
+	margin-right: 0.25rem;
+	margin-top: 0.31rem;
+}
+.list1_righttext{
+	float: left;
+	height: 0.37rem;
+	font-size: 0.12rem;
+	color: #66747e;
+	line-height: 0.37rem;
+	margin-left: 0.08rem;
+}
+.list1_righttu{
+	display: block;
+	float: right;
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+	margin-right: 0.07rem;
+	margin-top: 0.07rem;
+	font-size: 0.12rem;
+	color: #d6e9ff;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.list1_bottom{
+	display: block;
+	float: left;
+	width: 7.02rem;
+	height: 2.07rem;
+	background: #ffffff;
+	border-radius: 0.1rem;                          
+	margin-top: 0.24rem;
+	margin-left: 0.23rem;
+	box-shadow: 0 0 0.1rem 0.05rem rgba(0,0,0,0.1)
+}
+.list1_bottomtop{
+	width: 6.05rem;
+	height: 0.28rem;
+	margin-top: 0.49rem;
+	margin-left: 0.49rem;
+}
+h4{
+	float: left;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #4c4c4c;
+	line-height: 0.28rem;
+}
+#list1_icon1{
+	display: block;
+	float: right;
+	font-size: 0.2rem;
+	color: #179fff;
+	margin-left: 0.06rem;
+	line-height: 0.28rem;
+}
+.list1_bottomleftb{
+	float: left;
+	width: 2.3rem;
+	height: 1rem;
+	margin-top: 0.52rem;
+	margin-left: 0.49rem;
+}
+.list1_bottomleft1{
+	width: 2.73rem;
+	height: 0.5rem;
+}
+h5{
+	float: left;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	color: #179fff;
+	line-height: 0.5rem;
+}
+h6{
+	float: left;
+	height: 0.34rem;
+	font-size: 0.34rem;
+	color: #96bbde;
+	line-height: 0.34rem;
+	margin-top: 0.14rem;
+	margin-left: 0.16rem;
+}
+.list1_bottomtext1{
+	float: left;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #7f7f7f;
+	line-height: 0.28rem;
+	margin-top: 0.22rem;
+}
+.list1_bottomrightd{
+	float: right;
+	width: 3.3rem;
+	height: 1.09rem;
+	margin-right: 0.47rem;
+	margin-top: 0.5rem;
+}
+.list1_bottomright1d{
+	float: right;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #666666;
+	line-height: 0.28rem;
+}
+.list1_bottomrightd1{
+	float: right;
+	width: 1.54rem;
+	height: 0.49rem;
+	background: #29d469;
+	border-radius: 0.5rem;
+	font-size: 0.18rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.49rem;
+	margin-top: 0.32rem;
+}
+.list1_bottomrightd2{
+	float: right;
+	width: 1.54rem;
+	height: 0.49rem;
+	background: #179fff;
+	border-radius: 0.5rem;
+	font-size: 0.18rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.49rem;
+	margin-top: 0.32rem;
+	margin-right: 0.19rem;
+}

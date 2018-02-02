@@ -1,0 +1,370 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-30 10:58:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-02-01 14:58:43
+*/
+*{
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+/* 头部开始 */
+
+header{
+	width: 7.5rem;
+	height: 1.57rem;
+	background: #2b8aff;
+}
+h1{
+	font-size: 0.56rem;
+	color: #ffffff;
+	margin-left: 0.22rem;
+	line-height: 1.57rem;
+	float: left;
+}
+.youhezi{
+	width: 0.84rem;
+	height: 1.57rem;
+	float: right;
+	overflow: hidden;
+}
+.jiahao{
+	display: block;
+	width: 0.57rem;
+	height: 0.57rem;
+	border-radius: 0.5rem;
+	margin-top: 0.50rem;
+	box-shadow: 0rem 0rem 0.08rem 0.03rem rgba(0, 0, 0, 0.3)
+}
+#icon-jiahao21{
+	font-size: 0.57rem;
+	color: #fff;
+	float: left;
+	line-height: 0.57rem;
+}
+section{
+	width: 100%;
+	height: 1.11rem;
+	background: #fafafa;
+	overflow: hidden;
+}
+.daohang{
+	width: 5.82rem;
+	height: 0.62rem;
+	background: #f5f3f3;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+	border-radius: 0.3rem;
+}
+.cj{
+	width: 1.81rem;
+	height: 0.54rem;
+	background-image: -webkit-linear-gradient(left,#23affd,#29d5fb);
+	float: left;
+	border-radius: 0.3rem;
+	margin-top: 0.04rem;
+	margin-left: 0.06rem;
+	position: relative;
+	margin-right: 0.08rem;
+	box-shadow: 0rem 0rem 0.1rem 0.02rem rgba(0, 0, 0, 0.2)
+}
+.caijingbaodao{
+	width: 1.81rem;
+	height: 0.54rem;
+	font-size: 0.12rem;
+	color: #7fcafe;
+	text-align: center;
+	line-height: 0.54rem;
+}
+.cjbd{
+	position: absolute;
+	font-size: 0.28rem;
+	color: #ffffff;
+	top: 0.06rem;
+	left: 0.33rem;
+}
+.cj2{
+	width: 1.81rem;
+	height: 0.54rem;
+	background: #fff;
+	float: left;
+	border-radius: 0.3rem;
+	margin-top: 0.04rem;
+	margin-left: 0.06rem;
+	position: relative;
+	margin-right: 0.08rem;
+}
+.caijingbaodao2{
+	width: 1.81rem;
+	height: 0.54rem;
+	font-size: 0.12rem;
+	color: #e0f7fe;
+	text-align: center;
+	line-height: 0.54rem;
+}
+.cjbd2{
+	position: absolute;
+	font-size: 0.28rem;
+	color: #25bdfc;
+	top: 0.06rem;
+	left: 0.33rem;
+}
+.cj3{
+	width: 1.81rem;
+	height: 0.54rem;
+	background: #fff;
+	float: left;
+	border-radius: 0.3rem;
+	margin-top: 0.04rem;
+	margin-left: 0.06rem;
+	position: relative;
+}
+.caijingbaodao3{
+	width: 1.81rem;
+	height: 0.54rem;
+	font-size: 0.12rem;
+	color: #e0f7fe;
+	text-align: center;
+	line-height: 0.54rem;
+}
+
+/* 头部结束 */
+
+/* 列表开始 */
+
+.dahezi{
+	width: 100%;
+	height: 11.64rem;
+    background: #fbfbfb;
+}
+.dahezi2{
+	width: 7.02rem;
+	height: 10.31rem;
+	margin: 0 auto;
+}
+.hezi1{
+	width: 7.02rem;
+	height: 1.87rem;
+	background: #ffffff;
+	margin-bottom: 0.24rem;
+	overflow: hidden;
+	border-radius: 0.20rem;
+	box-shadow: 0rem 0rem 0.1rem 0.02rem rgba(0, 0, 0, 0.2)
+}
+.zuotu{
+	display: block;
+	width: 1.91rem;
+	height: 1.61rem;
+	background: #000;
+	margin-top: 0.12rem;
+	margin-left: 0.13rem;
+	background: url('../img/whh/01.png')no-repeat center;
+	background-size: cover;
+	float: left;
+}
+.youhe{
+	width: 4.73rem;
+	height: 1.61rem;
+	margin-top: 0.12rem;
+	margin-left: 0.25rem;
+	float: left;
+	position: relative;
+}
+.youjia{
+	display: block;
+	width: 1.52rem;
+	height: 0.36rem;
+	margin-top: 0.13rem;
+	float: left;
+	font-size: 0.28rem;
+	color: #2b8aff;
+	line-height: 0.36rem;
+}
+.new{
+	width: 0.55rem;
+	height: 0.36rem;
+	margin-top: 0.13rem;
+	margin-left: 0.26rem;
+	float: left;
+	background: url('../img/whh/1.png')no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+#zi{
+	font-size: 0.13rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.36rem;
+	position: absolute;
+}
+.shuidi{
+	width: 0.63rem;
+	height: 0.36rem;
+	top: 0.48rem;
+	left: 0;
+	position: absolute;
+}
+.sd{
+    width: 0.63rem;
+    height: 0.36rem;
+    float: left;
+}
+.ziti{
+	width: 4.23rem;
+	height: 0.23rem;
+	position: absolute;
+	top: 0.98rem;
+	left: 0;
+    font-size: 0.23rem;
+    color: #8d8d8d;
+    line-height: 0.23rem;
+}
+.shijian{
+	width: 1.6rem;
+	height: 0.17rem;
+	background: #fff;
+	position: absolute;
+	bottom: 0.10rem;
+	left: 0;
+}
+.biao{
+	display: block;
+	width: 0.17rem;
+	height: 0.17rem;
+	float: left;
+	margin-right: 0.11rem;
+}
+.sj{
+	float: left;
+	font-size: 0.14rem;
+	color: #a3a3a3;
+	float: left;
+	line-height: 0.17rem;
+}
+.shijian1{
+	width: 1.32rem;
+	height: 0.17rem;
+	position: absolute;
+	bottom: 0.10rem;
+	left: 1.90rem;
+	margin-left: 0.58rem;
+}
+.zuotu2{
+	display: block;
+	width: 1.91rem;
+	height: 1.61rem;
+	margin-top: 0.12rem;
+	margin-left: 0.13rem;
+	background: url('../img/whh/02.png')no-repeat center;
+	background-size: cover;
+	float: left;
+}
+.zuotu3{
+	display: block;
+	width: 1.91rem;
+	height: 1.61rem;
+	margin-top: 0.12rem;
+	margin-left: 0.13rem;
+	background: url('../img/whh/03.png')no-repeat center;
+	background-size: cover;
+	float: left;
+}
+.zuotu4{
+	display: block;
+	width: 1.91rem;
+	height: 1.61rem;
+	margin-top: 0.12rem;
+	margin-left: 0.13rem;
+	background: url('../img/whh/04.png')no-repeat center;
+	background-size: cover;
+	float: left;
+}
+.zuotu5{
+	display: block;
+	width: 1.91rem;
+	height: 1.61rem;
+	margin-top: 0.12rem;
+	margin-left: 0.13rem;
+	background: url('../img/whh/05.png')no-repeat center;
+	background-size: cover;
+	float: left;
+}
+
+/* 列表结束 */
+
+/* teb开始 */
+
+.teb{
+	width: 100%;
+	height: 1.01rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.teb_left{
+	float: left;
+	width: 25%;
+	height: 1.01rem;
+	background: #2b8aff;
+}
+.teb_lefttu{
+	display: block;
+	float: left;
+	width: 0.5rem;
+	height: 0.45rem;
+	margin-left: 0.69rem;
+	margin-top: 0.3rem;
+	overflow: hidden;
+}
+#teb_icon{
+	display: block;
+	font-size: 0.5rem;
+	color: #ffffff; 
+    text-align: center;
+    margin-top: -0.03rem;                                          
+}
+.teb_zhong1{
+	float: left;
+	width: 25%;
+	height: 1.01rem;
+	background: #2b8aff;
+}
+#teb_icon1{
+	display: block;
+	font-size: 0.7rem;
+	color: #ffffff; 
+    text-align: center;
+    margin-top: -0.15rem;
+    margin-left: -0.11rem;                                          
+}
+.teb_zhong2{
+	float: left;
+	width: 25%;
+	height: 1.01rem;
+	background: #2068c0;
+}
+.teb_zhong2text{
+	display: block;
+	float: left;
+	width: 0.34rem;
+	height: 0.22rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+    margin-top: 0.19rem;
+    margin-left: -0.04rem;
+    font-size: 0.16rem;
+    color: #2b8aff;
+    text-align: center;
+    line-height: 0.22rem;
+}
+.teb_right{
+	float: left;
+	width: 25%;
+	height: 1.01rem;
+	background: #2b8aff;
+}
+
+/* teb结束 */

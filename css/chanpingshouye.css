@@ -1,0 +1,429 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/*头部*/
+.head{
+	width: 100%;
+	height: 1.66rem;
+	background: #179fff;
+}
+.head_left{
+	display: block;
+	float: left;
+	width: 2.3rem;
+	height: 0.71rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+	margin-top: 0.47rem;
+	margin-right: 0.06rem;
+}
+.head .head_left:first-child{
+	margin-left: 0.23rem;
+}
+#head_icon1{
+	display: block;
+	float: left;
+	font-size: 0.4rem;
+	color: #179fff;
+	margin-left: 0.3rem;
+	line-height: 0.71rem;
+}
+#head_icon2{
+	display: block;
+	float: left;
+	font-size: 0.4rem;
+	color: #28d469;
+	margin-left: 0.3rem;
+	line-height: 0.71rem;
+}
+#head_icon3{
+	display: block;
+	float: left;
+	font-size: 0.4rem;
+	color: #ffcd61;
+	margin-left: 0.3rem;
+	line-height: 0.71rem;
+}
+h1{
+	float: right;
+	font-size: 0.28rem;
+	color: #666666;
+	margin-right: 0.3rem;
+	line-height: 0.71rem;
+
+}
+/*头部结束*/
+
+/*精选活期*/
+.list1{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 1.25rem;
+}
+.list1_left{
+	float: left;
+	width: 0.06rem;
+	height: 0.49rem;
+	background: #179fff;
+	border-radius: 0.5rem;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list1_zhong{
+	float: left;
+	height: 0.49rem;
+	margin-left: 0.1rem;
+	margin-top: 0.24rem;
+
+}
+h2{
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #646464;
+	line-height: 0.28rem;
+}
+h3{
+	height: 0.14rem;
+	font-size: 0.14rem;
+	color: #e1e1e1;
+	line-height: 0.14rem;
+	margin-top: 0.07rem;
+}
+.list1_right{
+	float: right;
+	width: 0.9rem;
+	height: 0.37rem;
+	background: #cde9fc;
+	border-radius: 0.5rem;
+	margin-right: 0.25rem;
+	margin-top: 0.31rem;
+}
+.list1_righttext{
+	float: left;
+	height: 0.37rem;
+	font-size: 0.12rem;
+	color: #66747e;
+	line-height: 0.37rem;
+	margin-left: 0.08rem;
+}
+.list1_righttu{
+	display: block;
+	float: right;
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+	margin-right: 0.07rem;
+	margin-top: 0.07rem;
+	font-size: 0.12rem;
+	color: #d6e9ff;
+	text-align: center;
+	line-height: 0.25rem;
+}
+.list1_bottom{
+	display: block;
+	float: left;
+	width: 7.02rem;
+	height: 2.61rem;
+	background: #ffffff;
+	border-radius: 0.1rem;                          
+	margin-top: 0.24rem;
+	margin-left: 0.23rem;
+	box-shadow: 0 0 0.1rem 0.05rem rgba(0,0,0,0.1)
+}
+.list1_bottomtop{
+	width: 6.05rem;
+	height: 0.28rem;
+	margin-top: 0.49rem;
+	margin-left: 0.49rem;
+}
+h4{
+	float: left;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #4c4c4c;
+	line-height: 0.28rem;
+}
+#list1_icon1{
+	display: block;
+	float: right;
+	font-size: 0.2rem;
+	color: #179fff;
+	margin-left: 0.06rem;
+	line-height: 0.28rem;
+}
+.list1_bottomleft{
+	float: left;
+	width: 2.73rem;
+	height: 1rem;
+	margin-top: 0.37rem;
+	margin-left: 0.49rem;
+	border-right: 0.03rem solid #f2f2f2;
+}
+.list1_bottomleft1{
+	width: 2.73rem;
+	height: 0.5rem;
+}
+h5{
+	float: left;
+	height: 0.5rem;
+	font-size: 0.5rem;
+	color: #179fff;
+	line-height: 0.5rem;
+}
+h6{
+	float: left;
+	height: 0.34rem;
+	font-size: 0.34rem;
+	color: #96bbde;
+	line-height: 0.34rem;
+	margin-top: 0.14rem;
+	margin-left: 0.16rem;
+}
+.list1_bottomtext1{
+	float: left;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #7f7f7f;
+	line-height: 0.28rem;
+	margin-top: 0.22rem;
+}
+.list1_bottomleft2{
+	float: left;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #179fff;
+	border-radius: 0.5rem;
+	margin-left: 0.13rem;
+	margin-top: 0.4rem;
+}
+.list1_bottomleft3{
+	float: left;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #5cbcff;
+	border-radius: 0.5rem;
+	margin-left: 0.05rem;
+	margin-top: 0.4rem;
+}
+.list1_bottomleft4{
+	float: left;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #a2d9ff;
+	border-radius: 0.5rem;
+	margin-left: 0.05rem;
+	margin-top: 0.4rem;
+}
+.list1_bottomright{
+	float: left;
+	width: 3.45rem;
+	height: 1rem;
+	margin-top: 0.37rem;
+}
+.list1_bottomright1{
+	float: left;
+	width: 3.4rem;
+	height: 0.3rem;
+}
+.list1_bottomtext2{
+	float: left;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #7f7f7f;
+	line-height: 0.28rem;
+	margin-left: 0.6rem; 
+}
+.list1_bottomtext3{
+	float: left;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	color: #28d469;
+	line-height: 0.3rem;
+	margin-left: 0.24rem; 
+}
+.list1_bottomtext4{
+	float: left;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #7f7f7f;
+	line-height: 0.28rem;
+	margin-left: 0.6rem; 
+	margin-top: 0.4rem;
+}
+.list1_bottomtext5{
+	float: left;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #179fff;
+	line-height: 0.24rem;
+	margin-left: 0.2rem; 
+	margin-top: 0.46rem;
+}
+.list1_bottomtext6{
+	float: left;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	color: #7f7f7f;
+	line-height: 0.16rem;
+	margin-left: 0.11rem; 
+	margin-top: 0.51rem;
+}
+/*精选活期结束*/
+
+/*精选定期*/
+.list1_left1{
+	float: left;
+	width: 0.06rem;
+	height: 0.49rem;
+	background: #28d469;
+	border-radius: 0.5rem;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list1_bottomtext31{
+	float: left;
+	height: 0.16rem;
+	font-size: 0.16rem;
+	color: #7f7f7f;
+	line-height: 0.16rem;
+	margin-left: 0.08rem; 
+	margin-top: 0.11rem;
+}
+/*精选定期结束*/
+
+/*精选定期*/
+.list1_left2{
+	float: left;
+	width: 0.06rem;
+	height: 0.49rem;
+	background: #ffcd61;
+	border-radius: 0.5rem;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+/*精选定期结束*/
+
+/*精选基金*/
+.list1_bottomleftb{
+	float: left;
+	width: 2.3rem;
+	height: 1rem;
+	margin-top: 0.37rem;
+	margin-left: 0.49rem;
+}
+.list1_bottomrightd{
+	float: right;
+	width: 3.3rem;
+	height: 1.09rem;
+	margin-right: 0.47rem;
+	margin-top: 0.39rem;
+}
+.list1_bottomright1d{
+	float: right;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #666666;
+	line-height: 0.28rem;
+}
+.list1_bottomrightd1{
+	float: right;
+	width: 1.54rem;
+	height: 0.49rem;
+	background: #29d469;
+	border-radius: 0.5rem;
+	font-size: 0.18rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.49rem;
+	margin-top: 0.32rem;
+}
+.list1_bottomrightd2{
+	float: right;
+	width: 1.54rem;
+	height: 0.49rem;
+	background: #179fff;
+	border-radius: 0.5rem;
+	font-size: 0.18rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.49rem;
+	margin-top: 0.32rem;
+	margin-right: 0.19rem;
+}
+/*精选基金结束*/
+
+/*teb栏*/
+.teb{
+	width: 100%;
+	height: 1.01rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.teb_left{
+	float: left;
+	width: 25%;
+	height: 1.01rem;
+	background: #2b8aff;
+}
+.teb_lefttu{
+	display: block;
+	float: left;
+	width: 0.5rem;
+	height: 0.45rem;
+	margin-left: 0.69rem;
+	margin-top: 0.3rem;
+	overflow: hidden;
+}
+#teb_icon{
+	display: block;
+	font-size: 0.5rem;
+	color: #ffffff; 
+    text-align: center;
+    margin-top: -0.03rem;                                          
+}
+.teb_zhong1{
+	float: left;
+	width: 25%;
+	height: 1.01rem;
+	background: #2068c0;
+}
+#teb_icon1{
+	display: block;
+	font-size: 0.7rem;
+	color: #ffffff; 
+    text-align: center;
+    margin-top: -0.15rem;
+    margin-left: -0.11rem;                                          
+}
+.teb_zhong2{
+	float: left;
+	width: 25%;
+	height: 1.01rem;
+	background: #2b8aff;
+}
+.teb_zhong2text{
+	display: block;
+	float: left;
+	width: 0.34rem;
+	height: 0.22rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+    margin-top: 0.19rem;
+    margin-left: -0.04rem;
+    font-size: 0.16rem;
+    color: #2b8aff;
+    text-align: center;
+    line-height: 0.22rem;
+}
+.teb_right{
+	float: left;
+	width: 25%;
+	height: 1.01rem;
+	background: #2b8aff;
+}
+/*teb栏结束*/

@@ -1,0 +1,345 @@
+/*
+* @Author: 王旭峰
+* @Date:   2018-01-30 11:25:03
+* @Last Modified by:   王旭峰
+* @Last Modified time: 2018-02-01 15:44:27
+*/
+*{
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部 */
+.head{
+	width: 100%;
+	height: 1.58rem;
+	background: #179fff;
+	overflow: hidden;
+}
+.head_left{
+	overflow: hidden;
+	float: left;
+	width: 2.6rem;
+	height: 1.1rem;
+	margin-top: 0.24rem;
+	margin-left: 0.25rem;
+}
+.head_lefttu{
+    width: 0.46rem;
+    height: 0.29rem;
+    background: #5dbcff;
+    border-radius: 0.5rem;
+    display: block;
+    float: left;
+}
+.head_lefttu1{
+	height: 0.29rem;
+    font-size: 0.12rem;
+    color: #fff;
+    margin-left:0.1rem; 
+    line-height: 0.29rem;
+    float: left;
+}
+.head_lefttu2{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0.02rem;
+    margin-right: 0.04rem;
+    margin-top:0.12rem; 
+    float: left;
+}
+.head_lefttu3{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #aedeff;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    float: left;
+}
+.head_lefttext{
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    line-height: 0.56rem;
+    float: left;
+}
+
+/* 金额 */
+.jine{
+	width: 7.5rem;
+	height: 0.94rem;
+	background: #fbfbfb;
+}
+.jzuo{
+	width: 0.43rem;
+	height: 0.94rem;
+	background: #fbfbfb;
+	float: left;
+	overflow: hidden;
+}
+.edian{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #a2e9d1;
+	margin-top: 0.45rem;
+	margin-right: 0rem;
+	float: right;
+}
+.edian1{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: #a2e9d1;
+	margin-top: 0.45rem;
+	margin-right: 0.02rem;
+	float: right;
+}
+.jzhong{
+	width: 2.23rem;
+	height: 0.94rem;
+	margin-left: 0.11rem;
+	float: left;
+}
+.zzi{
+	font-size: 0.22rem;
+	color: #b5b5b5;
+	line-height: 0.94rem;
+}
+.jhou{
+	width: 1.39rem;
+	height: 0.94rem;
+	margin-right: 0.05rem;
+	float: right;
+}
+.jzi{
+	font-size: 0.34rem;
+	color: #2b8aff;
+	margin-top: 0.25rem;
+	font-weight: bold;
+}
+.jhou1{
+	height: 0.94rem;
+	float: right;
+}
+.jzi1{
+	font-size: 0.2rem;
+	color: #c3e4fc;
+	margin-top: 0.34rem;
+}
+/* 支付平台 */
+.pingtai{
+	width: 100%;
+	height: 0.73rem;
+	background: #fbfbfb;
+}
+.pzuo{
+	width: 0.3rem;
+	height: 100%;
+	float: left;
+}
+.ptiao{
+	width: 0.06rem;
+	height: 0.49rem;
+	background: #179fff;
+	border-radius: 0.03rem;
+	float: right;
+	margin-top: 0.12rem;
+}
+.ptiao1{
+	width: 0.06rem;
+	height: 0.49rem;
+	background: #29d469;
+	border-radius: 0.03rem;
+	float: right;
+	margin-top: 0.12rem;
+}
+.pzhong{
+	width: 4rem;
+	height: auto;
+	float: left;
+	margin-top:0.12rem; 
+	margin-left: 0.12rem;
+}
+.pzi{
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #8a8a8a;
+	line-height: 0.28rem;
+}
+.pxia{
+	width: 3rem;
+	height: auto;
+	float: left;
+	margin-top:0.02rem; 
+	margin-left: 0.12rem;
+}
+.pzi1{
+	height: 0.24rem;
+	font-size: 0.14rem;
+	color: #eaeaea;
+	line-height: 0.24rem;
+}
+/* 平台选择 */
+.zhong{
+	width: 100%;
+	height: 2rem;
+	background: #fbfbfb;
+	background: url('../img/gao/1.png')no-repeat;
+	background-size: 7.5rem 2rem;
+	position: relative;
+}
+#zhifu{
+	display: block;
+	font-size:  0.66rem;
+	border-radius: 50%;
+	color: #44c9fd;
+	/* background-image: -webkit-linear-gradient(top,#44c9fd,#4493fc); */
+	float: left;
+	position: absolute;
+	top: 0.4rem;
+	left: 1.59rem;
+	box-shadow: 0rem 0.02rem 0.1rem 0.02rem rgba(68, 172, 253, 0.4);
+}
+.zhonghe{
+	width: auto;
+	height: auto;
+	float: left;
+	position: absolute;
+	top:1.15rem; 
+	left: 1rem;
+}
+.zi{
+	font-size: 0.16rem;
+	color: #eeeeee;
+}
+.zhonghe1{
+	width: auto;
+	height: auto;
+	float: left;
+	position: absolute;
+	top:1.42rem; 
+	left: 1.6rem;
+}
+.zi1{
+	font-size: 0.21rem;
+	color: #448efd;
+}
+#zhifu1{
+	display: block;
+	font-size:  0.66rem;
+	border-radius: 50%;
+	color: #69de35;
+/* 	background-image: -webkit-linear-gradient(top #44c9fd #4493fc);
+ */	float: left;
+	position: absolute;
+	top: 0.4rem;
+	left: 5.22rem;
+	box-shadow: 0rem 0.02rem 0.1rem 0.02rem rgba(68, 172, 253, 0.4);
+}
+.zhonghezi{
+	width: auto;
+	height: auto;
+	float: left;
+	position: absolute;
+	top:1.21rem; 
+	left: 4.89rem;
+}
+.zi{
+	font-size: 0.16rem;
+	color: #eeeeee;
+	margin-top: -0.05rem;
+}
+.zhonghezi1{
+	width: auto;
+	height: auto;
+	float: left;
+	position: absolute;
+	top:1.42rem; 
+	left: 5.35rem;
+}
+.zi1{
+	font-size: 0.21rem;
+	color: #448efd;
+}
+
+/* 支付选择 */
+.xia{
+	width: 100%;
+	height: 7.25rem;
+	background: #fbfbfb; 
+}
+.yinhang{
+	width: 7.02rem;
+	height: 1.04rem;
+	background: #ffffff;
+	border-radius: 0.1rem;
+	display: block;
+	margin-top: 0.12rem;
+	margin-left: 0.24rem;
+	box-shadow: 0rem 0rem 0.1rem 0.02rem rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+.yyuan{
+	width: 0.65rem;
+	height: 0.65rem;
+	background: #e3ecf2;
+	border-radius: 50%;
+	margin-top: 0.18rem;
+	margin-left: 0.18rem;
+	display: block;
+	float: left;
+	position: relative;
+}
+#dupian{
+	display: block;
+	font-size:  0.26rem;
+	color: #2888ff;
+	float: left;
+	position: absolute;
+	line-height: 0.65rem;
+	margin-left: 0.11rem;
+}
+.yzhong{
+	width: 4rem;
+	height: auto;
+	float: left;
+	margin-top:0.32rem; 
+	margin-left: 0.24rem;
+}
+.yying{
+	font-size: 0.14rem;
+	color: #eeeeee;
+	margin-top: -0.1rem;
+}
+.yxia{
+	width: 3rem;
+	height: auto;
+	float: left;
+	margin-top:0.02rem; 
+	margin-left: 0.24rem;
+}
+.yzi{
+	font-size: 0.22rem;
+	color: #a3a3a3;
+	margin-top: -0.1rem;
+}
+.shu{
+	width: 0.61rem;
+	height: 0.39rem;
+	background: #4f576a;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 0.32rem;
+	right: 0.25rem;
+	float: right;
+	font-size: 0.17rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.39rem;
+}

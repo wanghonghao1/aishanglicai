@@ -1,0 +1,397 @@
+*{
+	margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* 头部 */
+.head{
+	width: 100%;
+	height: 1.58rem;
+	background: #179fff;
+	overflow: hidden;
+}
+.head_left{
+	overflow: hidden;
+	float: left;
+	width: 2.6rem;
+	height: 1.1rem;
+	margin-top: 0.24rem;
+	margin-left: 0.25rem;
+}
+.head_lefttu{
+    width: 0.46rem;
+    height: 0.29rem;
+    background: #5dbcff;
+    border-radius: 0.5rem;
+    display: block;
+}
+.head_lefttu1{
+	height: 0.29rem;
+    font-size: 0.12rem;
+    color: #fff;
+    margin-left:0.1rem; 
+    line-height: 0.29rem;
+    float: left;
+}
+.head_lefttu2{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0.02rem;
+    margin-right: 0.04rem;
+    margin-top:0.12rem; 
+    float: left;
+}
+.head_lefttu3{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #aedeff;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    float: left;
+
+}
+.head_lefttext{
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    line-height: 0.56rem;
+}
+.head_right{
+	display: block;
+	float: right;
+	width: 0.57rem;
+	height: 0.57rem;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-top: 0.77rem;
+    margin-right: 0.24rem;
+}
+#head_icon{
+	display: block;
+	font-size: 0.25rem;
+	color: #4d83ff;
+	text-align: center;
+	line-height: 0.57rem;
+}
+/*头部结束*/
+
+/*图*/
+.tu{
+	width: 100%;
+	height: 3.6rem;
+	background-image: -webkit-linear-gradient(left,#23aefd,#29d6fb);
+}
+.tu_left{
+	float: left;
+	width: 3.5rem;
+	height: 3.12rem;
+	background: url(../img/lj/tu1.png) no-repeat center;
+    background-size: 3.5rem 3.12rem;
+	margin-top: 0.24rem;
+	margin-left: 0.25rem;
+}
+.tu_right{
+	float: right;
+	width: 1.6rem;
+	height: 0.97rem;
+	background: url(../img/lj/tu2.png) no-repeat center;
+    background-size: 1.6rem 0.97rem;
+	margin-top: 2.39rem;
+	margin-right: 0.24rem;
+}
+/*图结束*/
+
+/*列表*/
+.list1{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 1.25rem;
+}
+/*收益走势*/
+.list1_left{
+	float: left;
+	width: 0.06rem;
+	height: 0.49rem;
+	background: #28d469;
+	border-radius: 0.5rem;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list1_zhong{
+	float: left;
+	height: 0.49rem;
+	margin-left: 0.1rem;
+	margin-top: 0.24rem;
+}
+h2{
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #646464;
+	line-height: 0.28rem;
+}
+h3{
+	height: 0.14rem;
+	font-size: 0.14rem;
+	color: #e1e1e1;
+	line-height: 0.14rem;
+	margin-top: 0.07rem;
+}
+.list1_right{
+	float: right;
+	width: 1.4rem;
+	height: 0.16rem;
+	margin-right: 0.26rem;
+	margin-top: 0.53rem;
+}
+.list1_righttext{
+	float: right;
+	font-size: 0.16rem;
+	color: #66747e;
+	line-height: 0.16rem;
+}
+.list1_righttu{
+	float: right;
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #30c468;
+	border-radius: 50%;
+	border: 0.03rem solid #e6f6ec;
+	margin-right: 0.13rem;
+	margin-top: 0.02rem;
+}
+.list1_bottom1{
+	width: 4.6rem;
+    height: 0.62rem;
+    background: #f5f3f3;
+    border-radius: 0.5rem;
+    margin-top: 0.94rem;
+    margin-left: 1.45rem;
+}
+.list1_bottom11{
+	float: left;
+	width: 1.46rem;
+	height: 0.54rem;
+	background-image: -webkit-linear-gradient(left,#23aefd,#29d6fb);
+	border-radius: 0.5rem;
+	margin-top: 0.04rem;
+	margin-left: 0.05rem;
+	position: relative;
+}
+.list1_bottom111{
+	width: 1.46rem;
+	height: 0.54rem;
+	font-size: 0.12rem;
+	color: #67cefd;
+	text-align: center;
+	line-height: 0.54rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.list1_bottom112{
+	width: 1.46rem;
+	height: 0.54rem;
+	font-size: 0.28rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.54rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.list1_bottom12{
+	float: left;
+	width: 1.46rem;
+	height: 0.54rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+	margin-top: 0.04rem;
+	margin-left: 0.06rem;
+	position: relative;
+}
+.list1_bottom121{
+	width: 1.46rem;
+	height: 0.54rem;
+	font-size: 0.12rem;
+	color: #d4f6fe;
+	text-align: center;
+	line-height: 0.54rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.list1_bottom122{
+	width: 1.46rem;
+	height: 0.54rem;
+	font-size: 0.28rem;
+	color: #24b4fd;
+	text-align: center;
+	line-height: 0.54rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.list1_bottom{
+	display: block;
+	float: left;
+	width: 7.02rem;
+	height: 3.26rem;
+	background: #ffffff;
+	border-radius: 0.1rem;                          
+	margin-top: 0.24rem;
+	margin-left: 0.23rem;
+	box-shadow: 0 0 0.1rem 0.05rem rgba(0,0,0,0.1)
+}
+.list1_bottomtu{
+	width: 6.47rem;
+	height: 2.63rem;
+	background: red;
+	margin-top: 0.35rem;
+	margin-left: 0.32rem; 
+	background: url(../img/lj/tu3.png) no-repeat center;
+    background-size: 6.47rem 2.63rem;  
+}
+/*收益走势结束*/
+
+/*透明图层*/
+.top{
+	display: block;
+	width: 100%;
+	height: 6.67rem;
+	background: rgba(255,255,255,0.8);
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+/*透明图层结束*/
+
+/*底部*/
+.bottom{
+	width: 100%;
+	height: 6.67rem;
+	background: #ffffff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	box-shadow: 0 -0.05rem 0.4rem 0.1rem rgba(0,0,0,0.05);
+}
+.bottom_top{
+	width: 100%;
+	height: 0.92rem;
+	margin-top: 0.46rem;
+	position: relative;
+}
+.bottom_toptext1{
+	width: 100%;
+	height: 0.92rem;
+	font-size: 0.92rem;
+	color: #ecf2ff;
+	text-align: center;
+	line-height: 0.92rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.bottom_toptext2{
+	width: 100%;
+	height: 0.32rem;
+	font-size: 0.26rem;
+	color: #487cff;
+	text-align: center;
+	line-height: 0.32rem;
+	margin-top: 0.18rem;
+}
+.bottom_toptext3{
+	width: 100%;
+	height: 0.26rem;
+	font-size: 0.2rem;
+	color: #88aaff;
+	text-align: center;
+	line-height: 0.26rem;
+}
+.bottom_bottom{
+	width: 6.4rem;
+	height: 3.49rem;
+	margin-top: 0.48rem;
+	margin-left: 0.55rem;
+}
+.bottom_bottom1{
+	display: block;
+	float: left;
+	width: 1.15rem;
+	height: 1.5rem;
+	background: #ffffff;
+	margin-right: 0.6rem;
+}
+.bottom_bottom .bottom_bottom1:nth-child(4){
+	margin-right: 0;
+}
+.bottom_bottom .bottom_bottom1:nth-child(5){
+	margin-top: 0.49rem;
+}
+.bottom_bottom .bottom_bottom1:last-child{
+	margin-top: 0.49rem;
+}
+.bottom_bottom1tu1{
+	width: 1.15rem;
+	height: 1.15rem;
+	background-image: -webkit-linear-gradient(top,#30daff,#3896fe);
+	border-radius: 0.35rem;
+}
+.bottom_bottom1tu2{
+	width: 1.15rem;
+	height: 1.15rem;
+	background-image: -webkit-linear-gradient(top,#30f595,#31dc53);
+	border-radius: 0.35rem;
+}
+.bottom_bottom1tu3{
+	width: 1.15rem;
+	height: 1.15rem;
+	background-image: -webkit-linear-gradient(top,#ffbf2c,#ff7138);
+	border-radius: 0.35rem;
+}
+.bottom_bottom1tu4{
+	width: 1.15rem;
+	height: 1.15rem;
+	background: #e1e1e1;
+	border-radius: 0.35rem;
+}
+.bottom_bottom1text{
+	width: 1.15rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #4c4c4c;
+	text-align: center;
+	line-height: 0.22rem;
+	margin-top: 0.13rem;
+}
+#bottom_icon{
+	float: left;
+	width: 0.57rem;
+	height: 0.57rem;
+	font-size: 0.57rem;
+	color: #ffffff;
+	margin-top: 0.29rem;
+	margin-left: 0.29rem;
+}
+.bottom_dibu{
+	display: block;
+	width: 1.06rem;
+	height: 0.5rem;
+	background: #f6f6f6;
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	border: 0.02rem solid #dcdcdc;
+	font-size: 0.14rem;
+	color: #888d9b;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.5rem;
+}
+/*底部结束*/

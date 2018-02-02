@@ -1,0 +1,317 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-30 11:08:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-02-01 15:13:32
+*/
+*{
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+
+.head{
+	width: 100%;
+	height: 1.58rem;
+	background: #179fff;
+	overflow: hidden;
+}
+.head_left{
+	overflow: hidden;
+	float: left;
+	width: 2.6rem;
+	height: 1.1rem;
+	margin-top: 0.24rem;
+	margin-left: 0.25rem;
+}
+.head_lefttu{
+    width: 0.46rem;
+    height: 0.29rem;
+    background: #5dbcff;
+    border-radius: 0.5rem;
+    display: block;
+    float: left;
+}
+.head_lefttu1{
+	height: 0.29rem;
+    font-size: 0.12rem;
+    color: #fff;
+    margin-left:0.1rem; 
+    line-height: 0.29rem;
+    float: left;
+}
+.head_lefttu2{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: 0.02rem;
+    margin-right: 0.04rem;
+    margin-top:0.12rem; 
+    float: left;
+}
+.head_lefttu3{
+    width: 0.04rem;
+    height: 0.04rem;
+    background: #aedeff;
+    border-radius: 50%;
+    margin-top: 0.12rem;
+    float: left;
+}
+.head_lefttext{
+    height: 0.56rem;
+    font-size: 0.56rem;
+    color: #ffffff;
+    margin-top: 0.25rem;
+    font-weight: bold;
+    line-height: 0.56rem;
+    float: left;
+}
+section{
+	width: 100%;
+	height: 1.12rem;
+	background: #fbfbfb;
+	overflow: hidden;
+}
+.daohang{
+	width: 3.08rem;
+	height: 0.62rem;
+	background: #f5f3f3;
+	margin: 0 auto;
+	margin-top: 0.24rem;
+	border-radius: 0.30rem;
+}
+.wz{
+	width: 1.46rem;
+	height: 0.54rem;
+	background-image: -webkit-linear-gradient(left,#23affd,#29d5fb);
+	float: left;
+	border-radius: 0.3rem;
+	margin-top: 0.04rem;
+	margin-left: 0.05rem;
+	position: relative;
+	margin-right: 0.06rem;
+	box-shadow: 0rem 0rem 0.1rem 0.02rem rgba(0, 0, 0, 0.2)
+}
+.wenzi{
+	position: absolute;
+	width: 1.46rem;
+	height: 0.54rem;
+	font-size: 0.12rem;
+	color: #7fcefe;
+	text-align: center;
+	line-height: 0.54rem;
+	top: 0;
+	left: 0;
+}
+.wz1{
+	width: 1.46rem;
+	height: 0.54rem;
+	position: absolute;
+	font-size: 0.28rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.54rem;
+	top: 0;
+	left: 0;
+}
+.yy{
+	width: 1.46rem;
+	height: 0.54rem;
+	background: #fff;
+	float: left;
+	border-radius: 0.3rem;
+	margin-top: 0.04rem;
+	position: relative;
+}
+.yuying{
+	width: 1.46rem;
+	height: 0.54rem;
+	position: absolute;
+	font-size: 0.12rem;
+	color: #e0f7fe;
+	text-align: center;
+	line-height: 0.54rem;
+	top: 0;
+	left: 0;
+}
+.yy2{
+	position: absolute;
+	width: 1.46rem;
+	height: 0.54rem;	
+	font-size: 0.28rem;
+	color: #25bdfc;
+	text-align: center;
+	line-height: 0.54rem;
+	top: 0;
+	left: 0;
+}
+
+/* 头部开始 */
+
+/* 留言开始 */
+
+.liuyan{
+	width: 100%;
+	height: 5.65rem;
+	background: #fbfbfb;
+}
+.liuyan1{
+	width: 7.01rem;
+	height: 5.61rem;
+	margin: 0 auto;
+	background: #f7f7f7;
+	border-radius: 0.20rem;
+	box-shadow: 0rem 0rem 0.5rem 0.02rem rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.ly{
+	width: 6.78rem;
+	height: 4.16rem;
+	border-top-left-radius: 0.20rem;
+	border-top-right-radius: 0.20rem;
+	border: 0;
+	resize: none;
+	font-size: 0.35rem;
+	color: #000;
+	padding-top: 0.24rem;
+	padding-left: 0.24rem;    
+}
+.ly:focus{
+    outline: none;
+}
+.fangkuai{
+	position: absolute;
+	width: 1.78rem;
+    height: 1.78rem;
+    background: #29d469;
+    left: 0.24rem;
+    bottom: 0.26rem;
+    border-radius: 0.20rem;
+    overflow: hidden;
+}
+.jiahao{
+	width: 0.71rem;
+	height: 0.39rem;
+	background: #23b55a;
+	border-radius: 0.30rem;
+	margin-left: 0.52rem;
+	margin-top: 0.48rem;
+	font-size: 0.17rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.39rem;
+}
+.yingwen1{
+	position: absolute;
+	font-size: 0.16rem;
+	color: #fff;
+	top: 1rem;
+	left: 0.42rem;
+}
+.yingwen2{
+	position: absolute;
+	font-size: 0.16rem;
+	color: #fff;
+	top: 1.22rem;
+	left: 0.4rem;
+}
+.xiaolian{
+	width: 0.60rem;
+	height: 0.60rem;
+	background: #fff;
+	border-radius: 0.50rem;
+	float: left;
+	margin-left: 2.49rem;
+	box-shadow: 0rem 0rem 0.3rem 0.02rem rgba(0, 0, 0, 0.2);
+}
+.wenjian{
+	width: 0.60rem;
+	height: 0.60rem;
+	background: #fff;
+	border-radius: 0.50rem;
+	float: left;
+	margin-left: 1.91rem;
+	box-shadow: 0rem 0rem 0.3rem 0.02rem rgba(0, 0, 0, 0.2);
+}
+.lajitong{
+	width: 0.60rem;
+	height: 0.60rem;
+	background: #fff;
+	border-radius: 0.50rem;
+	float: left;
+	margin-left: 0.31rem;
+	box-shadow: 0rem 0rem 0.3rem 0.02rem rgba(0, 0, 0, 0.2);
+}
+.xl{
+	width: 0.36rem;
+	height: 0.36rem;
+	margin: 0 auto;
+	float: left;
+	margin-left: 0.11rem;
+    margin-top: 0.13rem;
+}
+.wj{
+	width: 0.36rem;
+	height: 0.36rem;
+	margin: 0 auto;
+	float: left;
+	margin-left: 0.13rem;
+    margin-top: 0.12rem;
+}
+.ljt{
+	width: 0.36rem;
+	height: 0.36rem;
+	margin: 0 auto;
+	float: left;
+	margin-left: 0.12rem;
+    margin-top: 0.12rem;
+}
+.shuzi{
+	width: 0.64rem;
+	height: 0.15rem;
+	background: #ffffff;
+	position: absolute;
+	right: 0.52rem;
+    bottom: 1.24rem;
+}
+.o{
+	width: 0.12rem;
+	height: 0.15rem;
+	float: left;
+	font-size: 0.15rem;
+	color: #34a6ff;
+	line-height: 0.15rem;
+}
+.sz{
+	width: 0.51rem;
+	height: 0.15rem;
+	float: left;
+	font-size: 0.15rem;
+	color: #d6d6d6;
+	line-height: 0.15rem;
+	text-align: center;
+}
+
+/* 留言结束 */
+
+/* 键盘开始 */
+
+.jianpan{
+	width: 100%;
+	height: 4.98rem;
+	background: #f9f8f8;
+	overflow: hidden;
+/* }
+.jp{
+	width: 100%;
+	height: 4.39rem;
+	margin-top: 0.59rem;
+}
+.jpt{
+	width: 100%;
+	height: 4.39rem;
+} */
+/* 键盘结束 */
